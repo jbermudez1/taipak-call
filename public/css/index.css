@@ -1,0 +1,96 @@
+.btn {
+  background: #f8773a !important;
+}
+body.login {
+  background-color: #f8773a !important;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body.login .loginBox {
+  margin-top: 1em;
+  width: 100%;
+  max-width: 400px;
+  background: #fff;
+  border-radius: 3px;
+  padding: 2em;
+  box-shadow: 1px 1px 10px rgba(0,0,0,0.6) !important;
+}
+body.login small {
+  color: #fff;
+  padding-top: 0.5em;
+}
+body.login small a {
+  color: #9a390b;
+}
+body {
+  background-color: #f9f9f9;
+}
+header {
+  background-color: #f8773a;
+  height: 20vh;
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 1em;
+}
+header .container .header-block {
+  display: flex;
+}
+header .container .header-block .brand {
+  flex-grow: 2;
+  display: flex;
+  align-items: flex-end;
+}
+header .container .header-block .buttons {
+  display: flex;
+}
+header .container .header-block .buttons >a {
+  margin-left: 1em;
+}
+main {
+  margin-top: 2em;
+}
+.search input {
+  background-color: #fff !important;
+  box-shadow: 1px 1px 10px #808080 !important;
+  padding-left: 40px;
+  background-image: url("../img/location.svg");
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  border: none !important;
+  border-radius: 3px;
+}
+.circleButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  width: 70px;
+  height: 70px;
+  border-radius: 40em;
+}
+.circleButton.active {
+  border: solid #9a390b 3px;
+}
+.blocks {
+  display: flex;
+  flex-wrap: wrap;
+}
+.blocks >div {
+  padding: 0.3em;
+  width: 25%;
+}
+.blocks >div a {
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  background: #fff;
+  box-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+  padding: 0.5em;
+}
+.blocks >div a img {
+  margin-top: 1em;
+}

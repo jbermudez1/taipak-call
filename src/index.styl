@@ -1,0 +1,93 @@
+$primaryColor = #F8773A
+$bgColor = #F9F9F9
+
+// General
+.btn
+	background $primaryColor !important
+
+// LOGIN
+body.login
+	background-color $primaryColor !important
+	display flex
+	flex-flow column
+	justify-content center
+	align-items center
+	height 100vh
+	.loginBox
+		margin-top 1em
+		width 100%
+		max-width 400px
+		background white
+		border-radius 3px
+		padding 2em
+		box-shadow 1px 1px 10px rgba(0,0,0,0.6) !important
+	small
+		color white
+		padding-top 0.5em
+		a
+			color #9A390B
+		
+// home
+
+body
+	background-color $bgColor
+header
+	background-color $primaryColor
+	height 20vh
+	display flex
+	align-items flex-end
+	padding-bottom 1em
+	.container
+		.header-block
+			display flex
+			.brand
+				flex-grow 2
+				display flex
+				align-items flex-end
+			.buttons
+				display flex
+				>a
+					margin-left 1em
+				
+main
+	margin-top 2em
+.search
+	input
+		background-color white !important
+		box-shadow 1px 1px 10px gray !important
+		padding-left 40px
+		background-image url('../img/location.svg')
+		background-repeat no-repeat
+		background-position 10px center
+		border none !important
+		border-radius 3px
+		
+.circleButton
+	display flex
+	justify-content center
+	align-items center
+	background white
+	width 70px
+	height 70px
+	border-radius 40em
+	&.active
+		border solid #9A390B 3px
+// sucursales
+.blocks
+	display flex
+	// width 100%
+	flex-wrap wrap
+	>div
+		padding 0.3em
+		width 25%
+		// display flex
+		a
+			display flex
+			justify-content center
+			flex-flow column
+			align-items center
+			background white
+			box-shadow 1px 1px 3px rgba(0,0,0 0.3)
+			padding 0.5em
+			img
+				margin-top 1em
