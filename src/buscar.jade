@@ -1,0 +1,36 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title taipak
+		//- link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
+		link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css')
+		link(rel='stylesheet', href='./css/index.css')
+	body
+		header
+			.container
+				div.header-block
+					div.brand
+						img(src="img/navbar_logo.png")
+					div.buttons
+						a(href="#").circleButton.active
+							img(src="img/location.svg")
+						a(href="recoger.html").circleButton
+							img(src="img/sucicon.svg")
+		main.buscar
+			.container
+				div.search
+					input(type="search")
+				div.result
+					h4 Resultados
+					table
+						thead
+							tr
+								th Nombre
+								th Tags
+								th Sucursal
+								th Hr limite
+								th Ir
+					h5 Las Flores no esta asociada a ninguna sucursal y no existe cobertura de entrega

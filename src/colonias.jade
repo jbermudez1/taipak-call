@@ -1,0 +1,87 @@
+doctype html
+html(lang='en')
+	head
+		meta(charset='utf-8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge')
+		meta(name='viewport', content='width=device-width, initial-scale=1')
+		title taipak
+		//- link(rel='stylesheet', href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', integrity='sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', crossorigin='anonymous')
+		link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css')
+		link(rel='stylesheet', href='./css/index.css')
+	body
+		header
+			.container
+				div.header-block
+					div.brand
+						img(src="img/navbar_logo.png")
+					div.buttons
+						a(href="#").circleButton.active
+							img(src="img/location.svg")
+						a(href="recoger.html").circleButton
+							img(src="img/sucicon.svg")
+		main.colonias
+			div.container
+				h5 Nueva Colonias
+				.summit
+					.row
+						form.col.s12
+							.row
+								.input-field.col.s3
+									input#first_name.validate(type='text')
+									label(for='first_name') Colonia
+								.input-field.col.s3
+									input#last_name.validate(type='text')
+									label(for='last_name') Tags
+								.input-field.col.s3
+									input#last_name.validate(type='text')
+									label(for='last_name') Sucursal
+								.input-field.col.s3
+									input#last_name.validate(type='text')
+									label(for='last_name') Hr Limite
+
+							a.waves-effect.waves-light.btn.right Agregar
+
+				div.search
+					input(type="search")
+				div.result
+					table
+						thead
+							tr
+								th Nombre
+								th Tags
+								th Sucursal
+								th Hr limite
+								th Editar
+						tbody
+							tr
+								td Las Quintas
+								td Col las quintas, laz quinta
+								td Las Quintas
+								td 22:00
+								td
+									a(href='#')
+										img(src="img/estado.svg")
+									a(href='#')
+										img(src='img/ekis.svg')
+						tbody
+							tr
+								td Las Quintas
+								td Col las quintas, laz quinta
+								td Las Quintas
+								td 22:00
+								td
+									a(href='#')
+										img(src="img/estado.svg")
+									a(href='#')
+										img(src='img/ekis.svg')
+						tbody
+							tr
+								td Las Quintas
+								td Col las quintas, laz quinta
+								td Las Quintas
+								td 22:00
+								td
+									a(href='#')
+										img(src="img/estado.svg")
+									a(href='#')
+										img(src='img/ekis.svg')

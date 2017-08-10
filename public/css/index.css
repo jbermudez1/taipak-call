@@ -94,3 +94,11 @@ main {
 .blocks >div a img {
   margin-top: 1em;
 }
+.buscar h4 {
+  text-align: center;
+  color: #cecece;
+}
+.buscar h5 {
+  text-align: center;
+  color: #808080;
+}
